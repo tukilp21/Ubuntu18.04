@@ -17,8 +17,8 @@ W: Possible missing firmware /lib/firmware/rtl_nic/rtl8168fp-3.fw for module r81
 
 ## Create shortcut for executable scipts
 ### Steps:
-1. Create .sh files - see [sim_launch.sh](Example for my_note/sim_launch.sh)
-2. Create shortcut - see [LaunchSimulation.desktop](Example for my_note/LaunchSimulation.desktop)
+1. Create .sh files - see [sim_launch.sh](example/sim_launch.sh)
+2. Create shortcut - see [LaunchSimulation.desktop](example/LaunchSimulation.desktop)
 3. Dont forget chmod +x ...
 
 # 01/09/24:
