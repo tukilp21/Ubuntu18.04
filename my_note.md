@@ -22,7 +22,18 @@ W: Possible missing firmware /lib/firmware/rtl_nic/rtl8168fp-3.fw for module r81
 3. Dont forget chmod +x ...
 
 # 01/09/24:
-##
+## BIG ISSUE: CANNOT BOOT IN
+- At first I though it was due to me messing around with python packages, but actually no, mainly due to the gdb3 (GNOME interface) somehow
+- It took me 2h+ back pain to go through forum on my phone and managed to fixed it
+- Learn some cool trick along the way like *(I love old-school CLI interface xD)*
+  * Alt + F[x] to open new tty tab
+  * Ctrl + D to return to recovery mode menu
+  * Edit grub menu - remove "quiet splash" - *why not, looking at the dark screen spitting our lines of codes are cool*
+
+### Steps to solve
+1. Recovery mode
+2. (dont know if needed) Edit GRUB to nomodeset and (run something to) save it
+3. **install *lightdm* - set to default**
 
 # 30/08/24:
 - Dont mess up with PYTHONPATH :) If you dont know what you are setting
