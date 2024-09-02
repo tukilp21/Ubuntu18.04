@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Launch Simulation
+Comment=Launch the Gazebo simulation
+Exec=gnome-terminal -- bash -c "~/tukiFolder/sim_launch.sh; exec bash"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+
