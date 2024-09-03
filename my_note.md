@@ -1,3 +1,12 @@
+# 04/09/24:
+## Edit GNU Grub
+- lol, I just want Window booting option to be default when I first started the computer, so
+### Steps:
+* ```sudo nano /etc/default/grub```
+* change ```GRUB_DEFAULT=2```
+* (OR) ```sudo grub-set-default 'Windows Boot Manager (on /dev/nvme0n1p1)'```
+* ```sudo update-grub=```
+
 # 02/09/24:
 ## Setup display
 - I havent install driver or setup NVIDIA card (my laptop has RTX3050i) since I thought Ubuntu18.04 is oudated for my Victus 16
